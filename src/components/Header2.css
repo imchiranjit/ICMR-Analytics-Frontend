@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    height: 70px;
+    align-items: center;
+    background-color: #10131c;
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-image1{
+    height: 50px;
+    margin-left: 10px;
+}
+
+
+.logo-image2{
+    height: 50px;
+}
+
+.join-logo{
+    height: 33px;
+    width: 1px;
+    margin: 0 10px;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 2px 0.2px #fafafa;
+}
+
+.project-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fafafa;
+    margin: 0 auto;
+}
+
+button.login-button{
+    padding: 10px 25px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    transition: 0.3s;
+}
+
+.login-button:hover{
+    color: rgb(171, 171, 171);
+    border-color: rgb(177, 177, 177);
+}
+
+@media screen and (max-width: 850px){
+    .project-title{
+        font-size: 1.5rem;
+    }
+}

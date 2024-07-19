@@ -1,0 +1,47 @@
+/* HTML structure */
+/* <div class="hover-div">Hover me!</div> */
+
+/* CSS styling */
+/* HTML structure */
+/* <div class="shadow-container">Hover me!</div> */
+
+/* CSS styling */
+.shadow-container {
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    transition: box-shadow 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .shadow-container:hover {
+    box-shadow: 0 0 20px #03e2edc3; /* Yellow shadow on hover */
+  }
+.page-title {
+    font-size: 2em; /* Adjust the font size as needed */
+    color: #333; /* Set the text color */
+    text-align: center; /* Center the text */
+    margin-bottom: 20px; /* Add spacing at the bottom if needed */
+    font-weight: bold; /* Set the font weight, if desired */
+    text-transform: capitalize; /* Capitalize the text, if desired */
+  }
+.icon{
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.icon-div{
+  padding-left: 150px;
+}
+.icon:hover{
+  cursor: pointer;
+  box-shadow: 0 0 40px #dc2434c3;
+}
+.size{
+  height: 240px;
+  width: 220px;
+}
+.adjust{
+  margin: 80px;
+}

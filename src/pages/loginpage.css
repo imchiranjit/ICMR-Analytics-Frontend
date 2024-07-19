@@ -1,0 +1,7 @@
+.only-login {
+    background-image: url('https://images.pexels.com/photos/3993212/pexels-photo-3993212.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover; /* Optional: Adjust the background size */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    /* You can add more background properties as needed */
+  }
+  

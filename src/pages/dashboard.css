@@ -1,0 +1,33 @@
+.header_home .login-button{
+    display: none;
+}
+
+.header_home .state-button{
+    font-size: 1.5rem;
+    margin-right: 21px;
+    transition: 0.7s;
+    color: white;
+    border-bottom: 1px solid white;
+  }
+  
+  .header_home .state-button:hover{
+    text-decoration: none;
+  }
+
+  .dashboard-container{
+    position: relative;
+    top: 100px;
+  }
+
+.logout-btn{
+    color: white;
+    background-color: white;
+}
+
+.b_home{
+  position: fixed;
+  top: 70px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.5);
+  width: 100%;
+  z-index: 99;
+}

@@ -1,0 +1,20 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+.snap-align{
+    scroll-snap-align: start;
+    scroll-snap-stop:always;
+}
+
+.rk{
+    position: relative;
+    min-height: 100vh;
+    padding-top: 80px;
+    background: linear-gradient(to right, rgb(193, 220, 255) 0%, rgb(113, 215, 255) 80%);
+}
